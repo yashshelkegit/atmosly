@@ -6,6 +6,7 @@ const Toolbar = () => {
 
     return (
         <>
+        <div>
         <div className="flex justify-between items-center p-4 border-b-2 border-gray-300 mb-4">
             <h1 className="text-5xl">
                 SapceX
@@ -18,6 +19,7 @@ const Toolbar = () => {
                 </button>
             </div>
             {showModal && <SettingsModal setShowModal={setShowModal}/>}
+        </div>
         </div>
         </>
     )
