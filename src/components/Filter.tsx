@@ -1,4 +1,3 @@
-import React from "react";
 import type { MissionItemType } from "../types/MissionItemType";
 
 type FilterProps = {
