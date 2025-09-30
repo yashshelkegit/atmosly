@@ -41,6 +41,7 @@ const MissionDetails = () => {
 			<button
 				className="place-self-start rounded-md px-2 text-sm  bg-amber-800 text-white cursor-pointer"
 				onClick={favouriteHandler}
+                data-testid={`fav-${id}`}
 			>
 				{isFav ? "Remove from favourites" : "Add to favourites"}
 			</button>
