@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# React + TypeScript + TailwindCSS + Vite
 
 ### Live Demo : https://yashshelkegit.github.io/atmosly/
 
