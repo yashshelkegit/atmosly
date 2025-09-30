@@ -9,3 +9,11 @@ Setup :
 
 Test :
 1. Run `npm run test`
+
+Limitation :
+1. There is some unknown issue of image rendering in live demo, whereas locally they are visible.
+
+Snapshots :
+
+![Alt text](./pic1.png)
+![Alt text](./pic2.png)
