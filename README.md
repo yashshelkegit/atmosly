@@ -17,3 +17,9 @@ Snapshots :
 
 ![Alt text](./pic1.png)
 ![Alt text](./pic2.png)
+
+
+TODOs :
+1. Styling
+2. Text Curations
+3. Pagination/Infinite scroll
