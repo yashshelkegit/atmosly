@@ -1,11 +1,11 @@
 
 type LoadingProps = {
-  message: string | undefined
-}   
+  message?: string;
+};
 
-const Loading = ({message}: LoadingProps) => {
+const Loading = ({ message }: LoadingProps) => {
   return (
-    <div>
+    <div className="flex justify-center items-center h-96">
       {message && <p>{`${message}....`}</p>}
       {!message && <p>Loading....</p>}
     </div>

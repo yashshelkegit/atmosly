@@ -1,5 +1,6 @@
 import React from "react";
 import useTheme from "../hooks/useTheme";
+import { Cross, Moon, Sun } from "lucide-react";
 
 type SettingsModalProps = {
 	setShowModal: React.Dispatch<React.SetStateAction<boolean>>;
@@ -30,16 +31,17 @@ const SettingsModal = ({ setShowModal }: SettingsModalProps) => {
 				<div className="flex justify-between items-center mb-4">
 					<h1>Configurations</h1>
 					<button
+						className="hover:text-red-500"
 						onClick={() => {
 							setShowModal(false);
 						}}
 					>
-						Close
+						<Cross className="rotate-45"/>
 					</button>
 				</div>
 				<div>
-					<button onClick={toggleTheme}>
-						{theme === "light" ? "dark" : "light"}
+					<button className="border flex gap-2 p-2" onClick={toggleTheme}>
+						<span>Mode : </span>{theme === "light" ? <Moon/> : <Sun/>}
 					</button>
 				</div>
 			</div>

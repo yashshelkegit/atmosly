@@ -5,7 +5,7 @@ type FallbackProps = {
 
 const Fallback = ({message}: FallbackProps) => {
   return (
-    <div>
+    <div className="flex justify-center items-center h-96">
       <p>{message}</p>
     </div>
   )
