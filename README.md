@@ -12,6 +12,7 @@ Test :
 
 Limitation :
 1. There is some unknown issue of image rendering in live demo, whereas locally they are visible.
+2. Responsive issues in virtualized list(src/VirtualizedMissionGrid.tsx), therefore used normal list.
 
 Snapshots :
 
